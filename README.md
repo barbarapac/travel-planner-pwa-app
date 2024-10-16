@@ -1,15 +1,11 @@
 # Travel Planner PWA
 
 ## Descrição
-
-Trabalho de conclusão da disciplina **Arquitetura para Aplicações Móveis** de pós graduação em Arquitetura de sistemas distribuidos.
-
 Este projeto é uma aplicação web progressiva (PWA) para controle e planejamento de despesas de viagem. O objetivo é fornecer uma experiência semelhante a de um aplicativo nativo, mas utilizando tecnologias web como **HTML**, **CSS** e **JavaScript**, tornando-o leve e acessível em diversos dispositivos como **Smartphones**, **Tablets** e **iPads**.
 
 O aplicativo permite ao usuário gerenciar as despesas de uma única viagem, exibindo uma visão geral dos gastos e convertendo automaticamente o valor da moeda de origem para a moeda de destino (ex.: BRL para USD) utilizando a **Exchangerate-API**.
 
 ## Funcionalidades
-
 - Adicionar despesas com descrição, quantidade, valor, moeda de origem e valor convertido.
 - Editar despesas diretamente da lista ao clicar no ícone de lápis, carregando os dados no formulário.
 - Excluir despesas ao clicar no ícone de lixeira.
@@ -19,7 +15,6 @@ O aplicativo permite ao usuário gerenciar as despesas de uma única viagem, exi
 - Responsividade para uso em dispositivos móveis e desktops.
 
 ## Tecnologias Utilizadas
-
 - **HTML**: Estrutura básica do aplicativo.
 - **CSS**: Estilos e layout responsivo.
 - **JavaScript**: Lógica do aplicativo.
@@ -27,7 +22,6 @@ O aplicativo permite ao usuário gerenciar as despesas de uma única viagem, exi
   - URL da API: `https://api.exchangerate-api.com/v4/latest/${currencyFrom}`
 
 ## Como Funciona
-
 1. O usuário cadastra uma despesa, fornecendo a descrição, quantidade, valor e moeda de origem.
 2. O aplicativo consulta a API de conversão de moedas para calcular o valor convertido.
 3. A lista de despesas é atualizada dinamicamente e exibida na tela principal.

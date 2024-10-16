@@ -1,0 +1,16 @@
+{
+    "name": "Controle de Despesas de Viagem",
+    "short_name": "DespesasViagem",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "description": "App para controle de despesas de viagem com conversão de moedas.",
+    "icons": [
+        {
+          "src": "/images/icon.png",
+          "type": "image/png", "sizes": "72x72"
+        }
+    ]
+  }
+  
